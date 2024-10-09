@@ -59,4 +59,7 @@
     <Folder Include="Schema" />
     <Folder Include="Schema\Table" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema\Table\Customer.sql" />
+  </ItemGroup>
 </Project>
