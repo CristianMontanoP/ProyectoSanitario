@@ -57,7 +57,4 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="demo.txt" />
-  </ItemGroup>
 </Project>
