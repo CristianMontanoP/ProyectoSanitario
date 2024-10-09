@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ProyectoSanitarioOLTP", "ProyectoSanitarioOLTP\ProyectoSanitarioOLTP.sqlproj", "{4F2E1008-C5EE-4871-B003-502DCAEE1075}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ProyectoSanitarioDW", "ProyectoSanitarioDW\ProyectoSanitarioDW.sqlproj", "{B4A30769-352A-4F19-92C4-5A1349A200AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F2E1008-C5EE-4871-B003-502DCAEE1075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2E1008-C5EE-4871-B003-502DCAEE1075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2E1008-C5EE-4871-B003-502DCAEE1075}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4F2E1008-C5EE-4871-B003-502DCAEE1075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2E1008-C5EE-4871-B003-502DCAEE1075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2E1008-C5EE-4871-B003-502DCAEE1075}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B4A30769-352A-4F19-92C4-5A1349A200AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A30769-352A-4F19-92C4-5A1349A200AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A30769-352A-4F19-92C4-5A1349A200AE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B4A30769-352A-4F19-92C4-5A1349A200AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A30769-352A-4F19-92C4-5A1349A200AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A30769-352A-4F19-92C4-5A1349A200AE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09A4E30B-7108-4EA1-A108-3EE0F087099B}
+	EndGlobalSection
+EndGlobal
