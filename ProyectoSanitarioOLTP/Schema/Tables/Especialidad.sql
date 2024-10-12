@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[TbEspecialidad](
+	[Id_Especialidad] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre_Esp] [nvarchar](50) NULL,
+	[Estado_Esp] [nvarchar](10) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id_Especialidad] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]

@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[TbCargo](
+	[Id_Cargo] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre_Car] [varchar](50) NULL,
+	[Nivel_car] [varchar](50) NULL,
+	[Sueldo_Car] [int] NULL,
+	[Estado_Car] [nvarchar](10) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id_Cargo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]

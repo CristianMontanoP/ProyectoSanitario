@@ -57,9 +57,33 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Schema" />
-    <Folder Include="Schema\Table" />
+    <Folder Include="Schema\Tables" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Schema\Table\Customer.sql" />
+    <Build Include="Schema\Tables\Cama.sql" />
+    <Build Include="Schema\Tables\Cargo.sql" />
+    <Build Include="Schema\Tables\CIE.sql" />
+    <Build Include="Schema\Tables\Cobro.sql" />
+    <Build Include="Schema\Tables\Consulta_Externa.sql" />
+    <Build Include="Schema\Tables\Departamento.sql" />
+    <Build Include="Schema\Tables\Especialidad.sql" />
+    <Build Include="Schema\Tables\Especialidad_Hospital_Medico.sql" />
+    <Build Include="Schema\Tables\Ficha.sql" />
+    <Build Include="Schema\Tables\Hospital.sql" />
+    <Build Include="Schema\Tables\Internacion.sql" />
+    <Build Include="Schema\Tables\Medico.sql" />
+    <Build Include="Schema\Tables\Municipio.sql" />
+    <Build Include="Schema\Tables\Ocupacion.sql" />
+    <Build Include="Schema\Tables\Paciente.sql" />
+    <Build Include="Schema\Tables\Persona.sql" />
+    <Build Include="Schema\Tables\Personal_Administrativo.sql" />
+    <Build Include="Schema\Tables\Personal_Administrativo_CARGO_Hospital.sql" />
+    <Build Include="Schema\Tables\PersonaOcupacion.sql" />
+    <Build Include="Schema\Tables\Provincia.sql" />
+    <Build Include="Schema\Tables\Sala.sql" />
+    <Build Include="Schema\Tables\Servicio.sql" />
+    <Build Include="Schema\Tables\Servicio_Hospital_Especialidad.sql" />
+    <Build Include="Schema\Tables\Visita_Medica.sql" />
   </ItemGroup>
 </Project>

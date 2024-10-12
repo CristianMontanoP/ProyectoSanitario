@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[TbServicio_Hospital_Especialidad](
+	[Id_SHE] [int] IDENTITY(1,1) NOT NULL,
+	[Id_Servicio_SHE] [int] NULL,
+	[Id_Hospital_SHE] [int] NULL,
+	[Id_Especialidad_SHE] [int] NULL,
+	[Estado_Ser] [nvarchar](10) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id_SHE] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]

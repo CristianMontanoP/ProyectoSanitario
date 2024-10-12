@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[TbProvincia](
+	[Id_Provincia] [int] IDENTITY(1,1) NOT NULL,
+	[Id_Departamento_Pro] [int] NULL,
+	[Nombre_Pro] [varchar](50) NULL,
+	[Estado_Pro] [varchar](10) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id_Provincia] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]

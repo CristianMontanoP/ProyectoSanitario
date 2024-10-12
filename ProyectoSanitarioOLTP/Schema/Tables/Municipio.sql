@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[TbMunicipio](
+	[Id_Municipio] [int] IDENTITY(1,1) NOT NULL,
+	[Id_Provincia_Mun] [int] NULL,
+	[Nombre_Mun] [varchar](50) NULL,
+	[Estado_Mun] [varchar](10) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id_Municipio] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]

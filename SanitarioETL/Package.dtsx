@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="10/11/2024 11:32:54 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DELL-XPS-15"
+  DTS:CreatorName="DELL-XPS-15\Cristian Montano"
+  DTS:DTSID="{36D3892D-C6CF-4370-8DE6-AB307A33303B}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="22538"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{742C6B5B-C711-48F7-A250-CFD0AEB465EE}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>
