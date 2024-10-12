@@ -1,0 +1,22 @@
+INSERT INTO TbHospital (Id_Municipio_Hos, NIT_Hos, Nombre_Hos, Direccion_Hos, Telefono_Hos, Fecha_Inicio_Hos, Estado_Hos)
+VALUES 
+(1, 'NIT123456', 'Hospital Central', 'Av. Principal 123', '123-4567', '2024-01-01', 'Activo'),
+(2, 'NIT654321', 'Hospital La Paz', 'Calle Los Andes 456', '321-6547', '2024-01-02', 'Activo'),
+(3, 'NIT789456', 'Clínica Santa María', 'Av. Bolívar 789', '789-4561', '2024-01-03', 'Activo'),
+(4, 'NIT456789', 'Hospital del Norte', 'Calle 12 de Octubre 234', '234-5678', '2024-01-04', 'Activo'),
+(5, 'NIT112233', 'Hospital San Pedro', 'Av. El Sol 567', '567-8910', '2024-01-05', 'Activo'),
+(6, 'NIT998877', 'Clínica Los Ángeles', 'Calle Libertad 678', '111-2233', '2024-01-06', 'Activo'),
+(7, 'NIT887766', 'Hospital Regional', 'Av. Siempre Viva 890', '333-4455', '2024-01-07', 'Activo'),
+(8, 'NIT776655', 'Hospital Universitario', 'Calle Universitaria 456', '555-6677', '2024-01-08', 'Activo'),
+(9, 'NIT665544', 'Hospital Pampa', 'Av. Las Palmeras 234', '777-8899', '2024-01-09', 'Activo'),
+(10, 'NIT554433', 'Hospital General', 'Calle 24 de Septiembre 789', '999-1011', '2024-01-10', 'Activo'),
+(11, 'NIT445566', 'Hospital Los Olivos', 'Av. Los Olivos 123', '121-3141', '2024-01-11', 'Activo'),
+(12, 'NIT334455', 'Hospital Virgen de Fátima', 'Calle El Prado 567', '141-5161', '2024-01-12', 'Activo'),
+(13, 'NIT223344', 'Hospital Infantil', 'Av. Circunvalación 789', '161-7181', '2024-01-13', 'Activo'),
+(14, 'NIT556677', 'Hospital San Juan', 'Calle Las Flores 890', '181-9202', '2024-01-14', 'Activo'),
+(15, 'NIT667788', 'Hospital San Antonio', 'Av. Los Álamos 456', '202-3142', '2024-01-15', 'Activo'),
+(16, 'NIT778899', 'Hospital el Bajio', 'Calle Los Pinos 678', '314-5162', '2024-01-16', 'Activo'),
+(17, 'NIT889900', 'Hospital Santa Cruz', 'Av. Santa Cruz 234', '516-7183', '2024-01-17', 'Activo'),
+(18, 'NIT990011', 'Hospital Metropolitano', 'Calle El Dorado 789', '718-9203', '2024-01-18', 'Activo'),
+(19, 'NIT001122', 'Clínica Virgen del Carmen', 'Av. Carmen 567', '920-3144', '2024-01-19', 'Activo'),
+(20, 'NIT112233', 'Hospital Nacional', 'Calle Nacional 890', '112-5163', '2024-01-20', 'Activo');

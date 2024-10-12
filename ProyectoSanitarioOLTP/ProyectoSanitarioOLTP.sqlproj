@@ -85,5 +85,25 @@
     <Build Include="Schema\Tables\Servicio.sql" />
     <Build Include="Schema\Tables\Servicio_Hospital_Especialidad.sql" />
     <Build Include="Schema\Tables\Visita_Medica.sql" />
+    <None Include="Scripts\stagingTbSala.data.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\stagingTbVisita_Medica.data.sql" />
+    <None Include="Scripts\stagingTbCobro.data.sql" />
+    <None Include="Scripts\stagingTbCama.data.sql" />
+    <None Include="Scripts\stagingTbCargo.data.sql" />
+    <None Include="Scripts\stagingTbConsulta_Externa.data.sql" />
+    <None Include="Scripts\stagingTbEspecialidad_Hospital_Medico.data.sql" />
+    <None Include="Scripts\stagingTbFicha.data.sql" />
+    <None Include="Scripts\stagingTbHospital.data.sql" />
+    <None Include="Scripts\stagingTbInternacion.data.sql" />
+    <None Include="Scripts\stagingTbMedico.data.sql" />
+    <None Include="Scripts\stagingTbPersonal_Administrativo.data.sql" />
+    <None Include="Scripts\stagingTbPersonal_Administrativo_CARGO_Hospital.data.sql" />
+    <None Include="Scripts\stagingtbServicio.data.sql" />
+    <None Include="Scripts\stagingTbServicio_Hospital_Especialidad.data.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
